@@ -1,11 +1,16 @@
 [class*="col-"] p{
-    line-height: 145px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
 }
 
 .container .col-6.nested{
     padding: 5px;
 }
+
+
 
 .col-6.nested [class*="col-"]{
     border: 1px solid white;
