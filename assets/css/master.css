@@ -1,3 +1,9 @@
+body.debug [class*="col-"]{
+    background-color: rgb(241, 210, 210);
+    height: 150px;
+    border: 1px solid black;
+}
+
 [class*="col-"] p{
     position: relative;
     top: 50%;
