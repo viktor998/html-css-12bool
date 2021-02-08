@@ -16,7 +16,12 @@ body.debug{
 } */
 
 
-
+@media screen and (max-width:585px){
+    [class*="col-"]{
+        height: 25px;
+    
+    }
+}
 
 
 
