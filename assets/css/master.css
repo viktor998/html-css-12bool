@@ -1,4 +1,20 @@
 [class*="col-"] p{
-    line-height: 150px;
+    line-height: 145px;
     text-align: center;
 }
+
+.container .col-6.nested{
+    padding: 5px;
+}
+
+.col-6.nested [class*="col-"]{
+    border: 1px solid white;
+    height: 140px;
+    background-color: rgb(216, 112, 117);
+}
+
+
+
+
+
+

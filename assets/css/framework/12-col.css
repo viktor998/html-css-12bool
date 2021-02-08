@@ -1,5 +1,7 @@
-body.debug{
-    
+body.debug [class*="col-"]{
+    background-color: rgb(241, 210, 210);
+    height: 150px;
+    border: 1px solid black;
 }
 
 *{
@@ -15,9 +17,7 @@ body.debug{
 
 [class*="col-"]{
     float: left;
-    background-color: rgb(241, 210, 210);
-    height: 150px;
-    border: 1px solid black;
+
 }
 
 .container:after{
