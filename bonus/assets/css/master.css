@@ -1,0 +1,23 @@
+body.debug{
+    background-color: pink;
+}
+
+[class*="col-"]{
+    height: 50px;
+
+}
+
+/* .container{
+    border: 1px solid black;
+}
+
+.col-6{
+    border: 1px solid red;
+} */
+
+
+
+
+
+
+
